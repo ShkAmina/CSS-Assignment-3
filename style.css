@@ -1,0 +1,197 @@
+body{
+    position: relative;
+    background-color:lightblue;
+    height: 108em;
+}
+.welcome{
+    position: absolute;
+    margin-top:0px;
+    left: 20em;
+    width: 12em;
+    height: 5em;
+    color:#4c9A2A;
+    background:white;
+    border-radius: 25px;
+   border-style: solid;
+   border-width: 8px;
+   border-color: yellow;
+    font-style: italic;
+    font-weight:bold;
+    text-align: center;
+   line-height: 1.6;
+   box-shadow: 10px 10px gray;  
+}
+.line{
+        position: absolute;
+        margin-top: 9.2em;
+        margin-left:-10em;
+        margin-right:-10em;
+       width: 88.3em;
+        border: 1px solid white;
+        size: 100%;
+    
+}
+.one{
+    /* margin-top: 0.5em;
+    margin-right: -100em;
+    width: 90em;
+     */
+     position: absolute;
+     margin-top: 0.5em;
+     margin-left:-10em;
+     margin-right:-100em;
+    width: 98.3em;
+     border: 1px solid white;
+     
+}
+.MainBox{
+    position: absolute;
+    border:4px solid green;
+    top: 10.2em;
+    margin-left: -0.5em;
+    margin-right: 0em;
+    width: 78.4em;
+    height: 45em;
+
+}
+.Box{
+    color:#4c9A2A;
+    background:white;
+    border-radius: 25px;
+   border-style: solid;
+   border-width: 8px;
+   border-color: yellow;
+    font-style: italic;
+    box-shadow: 10px 10px gray; 
+}
+.Address{
+    line-height: 1.9;
+    text-align: center;
+    position: absolute;
+    margin-top:7em;
+    margin-left:-0.2em;
+    width: 12em;
+    height: 9em;
+}
+.Img{
+    position: absolute;
+    margin-top:10.5em;
+    left: 56em;
+    width: 18em;
+    height:13.4em;
+    /* color:#4c9A2A;
+    background:white;
+    border-radius: 25px;
+   border-style: solid;
+   border-width: 8px;
+   border-color: yellow;
+   box-shadow: 10px 10px gray; */
+ 
+}
+.I{
+    position: absolute;
+    width:230px ;
+    padding:28px;
+    
+
+}
+.serve{
+ position: absolute;
+ width: 16em;
+ height:15em ;
+ top: 35em;
+ margin-left:-0.2em;
+ text-align: center;
+}
+.rate{
+    position: absolute;
+    width:230px ;
+    padding-top:10px ;
+    padding:28px;
+    top: 35em;
+    left: 56.2em;
+    text-align: center;
+}
+.container{
+    position: absolute;
+    top: 58em;
+    left: 14em;
+    right: 15em;
+    width: 50em;
+    height: 47em;
+    color:white;
+    background:#900c3f;
+   border-style: solid;
+   border-width: 8px;
+   border-color: plum;
+    font-style: italic;
+    
+
+}
+.heading
+{   
+    /* background-color:blueviolet; */
+    padding: 10px ;
+    width: auto;
+    /* box-shadow: 0 8px 6px -6px black ; */
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fruit{
+    background-color: #f67e7d;
+    width: 24em;
+    height: 20em;
+    text-align: center;
+    line-height: 1.9;
+}
+.vegies{
+    background-color:#f67e7d;
+    width: 24em;
+    height: 20em;
+  
+    line-height: 1.9;
+    text-align: center;
+    /* margin-left:70px; */
+    
+}
+.other{ 
+    line-height: 1.9;
+    text-align: center;
+ background-color:#f67e7d ;
+ height:19em ;
+ text-align: center;
+}
+.block{
+    display: block;
+  
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.offer
+{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+  left: 30%;
+    padding-left: 20px;
+    bottom: 25px;
+  
+   
+    width: 30em;
+    color:rgb(206, 21, 79);
+    background:rgb(79, 200, 202);
+    border-radius: 25px;
+   border-style: solid;
+   border-width: 8px;
+   border-color: rgb(23, 18, 74);
+    font-style: italic;
+    box-shadow: 10px 10px gray;
+    padding-right: 20px;
+   
+}
